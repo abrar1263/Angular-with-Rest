@@ -1,0 +1,10 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+.navBar {
+  position: fixed;
+}
+
+.secondnav {
+  margin-top: 20px;
+}
