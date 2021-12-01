@@ -1,4 +1,7 @@
+<!-- Search UI -->
+<div>
 
+</div>
 <div class="card" layout-wrap>
 <mat-card class="example-card"  *ngFor="let user of Users">
     <mat-card-header> 
@@ -27,6 +30,8 @@
     </mat-card-header>
     <img mat-card-image src="https://img.icons8.com/ios-filled/500/000000/user.png" alt="Photo of a Shiba Inu">
     <mat-card-content>
+      Pincode :{{user.pinCode}}<br>
+      Date of Birth :{{user.dob}}<br>
      Software Developer
     </mat-card-content>
     <mat-card-actions class="mat-card-actions">
